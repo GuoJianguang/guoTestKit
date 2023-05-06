@@ -1,0 +1,22 @@
+{
+  "name": "guoTestKit",
+  "version": "0.1.0",
+  "summary": "A short description of guoTestKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/aliyun6361489040/guoTestKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "aliyun6361489040": "873191027@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/aliyun6361489040/guoTestKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "guoTestKit/Classes/**/*"
+}

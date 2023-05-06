@@ -7,6 +7,7 @@
 //
 
 #import "GUOViewController.h"
+#import <guoTestKit/GuoPrint.h>
 
 @interface GUOViewController ()
 
@@ -18,6 +19,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [GuoPrint print];
 }
 
 - (void)didReceiveMemoryWarning

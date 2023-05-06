@@ -1,0 +1,16 @@
+PODS:
+  - guoTestKit (0.1.0)
+
+DEPENDENCIES:
+  - guoTestKit (from `../`)
+
+EXTERNAL SOURCES:
+  guoTestKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  guoTestKit: 320cd88cdbe2424854acb6132c5543c1c6a60c68
+
+PODFILE CHECKSUM: e78fc410ebf06a926d8579e20fe748bfe0b5abdb
+
+COCOAPODS: 1.12.1
