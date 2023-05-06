@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface GuoPrint : NSObject
+@interface GuoNslog : NSObject
 
 +(void )print;
 

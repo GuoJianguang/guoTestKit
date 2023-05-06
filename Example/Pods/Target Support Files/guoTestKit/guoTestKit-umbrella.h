@@ -10,7 +10,7 @@
 #endif
 #endif
 
-#import "GuoPrint.h"
+#import "GuoNslog.h"
 
 FOUNDATION_EXPORT double guoTestKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char guoTestKitVersionString[];

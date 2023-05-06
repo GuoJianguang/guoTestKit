@@ -11,9 +11,9 @@
 		096A24DBC17478FCD5E0CDDCAC127723 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		1C6FBE60045E56D1B398A12EEEC6BBD6 /* Pods-guoTestKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CE5F9EC102E2EA29B0B629DE134B0C /* Pods-guoTestKit_Example-dummy.m */; };
 		1DCF1A7139780A5C8DB3CC622693EE3C /* Pods-guoTestKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 320415A336440F509CFBEA16A317D3C2 /* Pods-guoTestKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2D3D7009D0774056CB91DEB2B092DE9C /* GuoPrint.h in Headers */ = {isa = PBXBuildFile; fileRef = 819EBDE6B096071EABF377E2510AF422 /* GuoPrint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D3D7009D0774056CB91DEB2B092DE9C /* GuoNslog.h in Headers */ = {isa = PBXBuildFile; fileRef = 819EBDE6B096071EABF377E2510AF422 /* GuoNslog.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2E29C06A0FADF48E82B34339AFBB18F4 /* guoTestKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F9CABC37FA1EB62CBA03E3FEE8BBAD0 /* guoTestKit-dummy.m */; };
-		430613D3918E8A7737C8FA346CC92419 /* GuoPrint.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A88DDC52BE53207E66B7CB3267804C /* GuoPrint.m */; };
+		430613D3918E8A7737C8FA346CC92419 /* GuoNslog.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A88DDC52BE53207E66B7CB3267804C /* GuoNslog.m */; };
 		73C321D1A8B5493E0301E9F5A099349C /* guoTestKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D73E1CB4230C8AE708146467878ECDE8 /* guoTestKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D01EB56A5B1D2334F546127B4B530D72 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		F3EC37031EE7DD69B93476FFC44F820C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -38,7 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03A88DDC52BE53207E66B7CB3267804C /* GuoPrint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GuoPrint.m; path = guoTestKit/Classes/GuoPrint/GuoPrint.m; sourceTree = "<group>"; };
+		03A88DDC52BE53207E66B7CB3267804C /* GuoNslog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GuoNslog.m; path = guoTestKit/Classes/GuoPrint/GuoNslog.m; sourceTree = "<group>"; };
 		0C7AEDF96F943290F542EE534A32809F /* guoTestKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = guoTestKit.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		10CA740E3C36A58437BCE8F82D5EA6BD /* Pods-guoTestKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-guoTestKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		1A693F67B7139A51EADFE9019C9F1827 /* Pods-guoTestKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-guoTestKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -56,7 +56,7 @@
 		72CB1BDF62F3BDF66AB943B9E23D8E03 /* Pods-guoTestKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-guoTestKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		74DFC94A2D0EC9FEC689ACA76F81897F /* Pods-guoTestKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-guoTestKit_Tests-dummy.m"; sourceTree = "<group>"; };
-		819EBDE6B096071EABF377E2510AF422 /* GuoPrint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GuoPrint.h; path = guoTestKit/Classes/GuoPrint/GuoPrint.h; sourceTree = "<group>"; };
+		819EBDE6B096071EABF377E2510AF422 /* GuoNslog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GuoNslog.h; path = guoTestKit/Classes/GuoPrint/GuoNslog.h; sourceTree = "<group>"; };
 		82CE5F9EC102E2EA29B0B629DE134B0C /* Pods-guoTestKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-guoTestKit_Example-dummy.m"; sourceTree = "<group>"; };
 		85C5F7747F6D18430765F2EBDB1152EE /* guoTestKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "guoTestKit-Info.plist"; sourceTree = "<group>"; };
 		999FB07F957AEC6336B50CC3D00ECA78 /* Pods-guoTestKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-guoTestKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -115,8 +115,8 @@
 		32BD49306AB8BCC00BF9FB833CD87447 /* guoTestKit */ = {
 			isa = PBXGroup;
 			children = (
-				819EBDE6B096071EABF377E2510AF422 /* GuoPrint.h */,
-				03A88DDC52BE53207E66B7CB3267804C /* GuoPrint.m */,
+				819EBDE6B096071EABF377E2510AF422 /* GuoNslog.h */,
+				03A88DDC52BE53207E66B7CB3267804C /* GuoNslog.m */,
 				D2739DC74FEEC058D32374504DEEA34A /* Pod */,
 				48112D767DEE26A68595E2DE520ACD6A /* Support Files */,
 			);
@@ -249,7 +249,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D3D7009D0774056CB91DEB2B092DE9C /* GuoPrint.h in Headers */,
+				2D3D7009D0774056CB91DEB2B092DE9C /* GuoNslog.h in Headers */,
 				73C321D1A8B5493E0301E9F5A099349C /* guoTestKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -371,7 +371,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				430613D3918E8A7737C8FA346CC92419 /* GuoPrint.m in Sources */,
+				430613D3918E8A7737C8FA346CC92419 /* GuoNslog.m in Sources */,
 				2E29C06A0FADF48E82B34339AFBB18F4 /* guoTestKit-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

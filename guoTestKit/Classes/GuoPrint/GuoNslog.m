@@ -5,12 +5,12 @@
 //  Created by 郭建光 on 2023/5/3.
 //
 
-#import "GuoPrint.h"
+#import "GuoNslog.h"
 
-@implementation GuoPrint
+@implementation GuoNslog
 
 +(void )print
 {
-    NSLog(@"print--success--sssss");
+    NSLog(@"GuoNslog----ssshhhh");
 }
 @end
